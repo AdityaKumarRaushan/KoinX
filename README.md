@@ -1,5 +1,5 @@
 # KoinX
-This project is a server-side application built using **Node.js** and **MongoDB**. The purpose of this project is to import cryptocurrency trade data from a CSV file, store it in the database, and provide functionality to retrieve the asset-wise balance for a given timestamp.
+This project is a server-side application built using **Node.js** and **MongoDB**. This project aims to import cryptocurrency trade data from a CSV file, store it in the database, and provide functionality to retrieve the asset-wise balance for a given timestamp.
 
 ---
 
@@ -17,17 +17,17 @@ You can access the live version of the API here:
    - Upload a CSV file containing cryptocurrency trade data, which will be stored in a MongoDB database.
    
 2. **Retrieve Account Balance at Specific Timestamp**
-   - Query the asset-wise balance at any given timestamp, based on historical trade data.
+   - Based on historical trade data, query the asset-wise balance at any given timestamp.
 
 ---
 
 ## Endpoints
 
-### 1. Upload CSV File: `/v1/importUser`
+### 1. Upload CSV File: `https://koinx-13dp.onrender.com//v1/importUser`
 
 **Method**: `POST`
 
-**Description**: This endpoint accepts a CSV file with cryptocurrency trade data, parses the file, and stores the data into MongoDB.
+**Description**: This endpoint accepts a CSV file with cryptocurrency trade data, parses the file, and stores the data in MongoDB.
 
 **Request**: (via form-data in Postman or frontend)
 
@@ -41,6 +41,8 @@ You can access the live version of the API here:
 
 #### Sample Request in Postman:
 
+![image](https://github.com/user-attachments/assets/867c950d-fd69-4adf-97e7-0ed5bc5c2015)
+
+
 ```bash
-POST /v1/importUser
-Content-Type: multipart/form-data
+
