@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
 const userRoute = require('./routes/UserRoute');
+const balanceRoute = require('./routes/balanceRoute');
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.use('/v1', userRoute);
+app.use('/v1', balanceRoute);
 
 app.get('/', (req, res) => {
     return res.json({
