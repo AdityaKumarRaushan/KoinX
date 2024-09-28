@@ -43,6 +43,19 @@ You can access the live version of the API here:
 
 ![image](https://github.com/user-attachments/assets/867c950d-fd69-4adf-97e7-0ed5bc5c2015)
 
+### 2. Query asset-wise balance: `https://koinx-13dp.onrender.com//v1/balance`
+
+**Method**: `POST`
+
+**Description**: This endpoint accepts a timestamp value and returns the asset-wise balance of the account at any given timestamp.
+
+**Request**: (via raw data in Postman or frontend)
+
+#### Sample Request in Postman:
+![image](https://github.com/user-attachments/assets/fedcbf7d-c754-4ad0-9f49-adf1658ab5b4)
+
+
+
 
 ```bash
 
