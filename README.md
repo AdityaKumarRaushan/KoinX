@@ -23,7 +23,7 @@ You can access the live version of the API here:
 
 ## Endpoints
 
-### 1. Upload CSV File: `https://koinx-13dp.onrender.com//v1/importUser`
+### 1. Upload CSV File: `https://koinx-13dp.onrender.com/v1/importUser`
 
 **Method**: `POST`
 
@@ -43,7 +43,7 @@ You can access the live version of the API here:
 
 ![image](https://github.com/user-attachments/assets/867c950d-fd69-4adf-97e7-0ed5bc5c2015)
 
-### 2. Query asset-wise balance: `https://koinx-13dp.onrender.com//v1/balance`
+### 2. Query asset-wise balance: `https://koinx-13dp.onrender.com/v1/balance`
 
 **Method**: `POST`
 
