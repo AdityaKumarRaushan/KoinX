@@ -13,6 +13,12 @@ mongoose.connect(process.env.MONGODB_URI)
 
 const app = express();
 app.use(express.json());
+app.use(
+    cors({
+        origin: '*',
+        credentials: true,
+    })
+);
 
 app.use('/v1', userRoute);
 app.use('/v1', balanceRoute);
